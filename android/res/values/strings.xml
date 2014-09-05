@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="preferences">Preferences</string>
+    <string name="app_name">Remoteroid</string>
+    <string name="notify_options">Notify options</string>
+    <string name="filter">Filter</string>
+    <string name="filter_enabled">Filter enabled</string>
+    <string name="filter_disabled">Filter disabled</string>
+    <string name="enable_disable_notify_filters">Enable/Disable notify filter</string>
+    <string name="select_package">Select package</string>
+    <string name="select_package_to_filter">Select package to filter</string>
+    <string name="package_filter">Package filter</string>
+    <string name="notification_type">Notification type</string>
+    <string-array name="notificaton_types">
+        <item >All</item>
+        <item >Status bar notification</item>
+        <item >Toast</item>
+    </string-array>
+    <string-array name="notification_types_val">
+        <item >a</item>
+        <item >n</item>
+        <item >t</item>
+    </string-array>
+    <string-array name="filtering_modes">
+		<item >Exclude selected</item>
+        <item >Accept selected only</item>
+    </string-array>
+    <string-array name="filtering_modes_val">
+        <item >e</item>
+        <item >s</item>
+    </string-array>
+        <string name="notification_type_summary">Select notification type to be notified</string>        
+        <string name="enable">Enable</string>
+        <string name="enabled">Enabled</string>
+        <string name="file_explorer">File explorer</string>
+        <string name="ip_address">IP Address</string>
+        <string name="password">Password</string>
+        <string name="connect">Connect</string>
+        <string name="sign_up">Sign Up</string>
+        <string name="auto_connect">Auto connect</string>
+        <string name="connecting">Connecting…</string>
+        <string name="filtering_mode">Filtering mode</string>
+        <string name="filtering_mode_summary">Exclude or include selected package</string>
+        <string name="you_can_t_use_remoteroid_without_driver">You can\'t use Remoteroid without driver.</string>
+        <string name="you_have_to_install_remoteroid_driver_in_order_to_use_remoteroid">You have to install Remoteroid driver in order to use Remoteroid.</string>
+        <string name="driver_installation">Driver installation</string>
+        <string name="loading">Loading…</string>
+        
+        <string-array name="category_dialog_list">
+            <item >Image</item>
+            <item >Video</item>
+            <item >Music</item>
+        </string-array>
+    <string name="dialog_input_toast">After entering, press button.</string>
+    <string name="category_dialog_title">Please enter except for \'.\'(ex: gul)</string>
+    <string name="index_is_already_registered_">Index is already registered.</string>
+    <string name="searching_for_file_">Searching for file.....</string>
+    <string name="searching">Searching</string>
+    <string name="is_the_parent_folder">Is the parent folder</string>
+    <string name="installing">Installing…</string>
+    <string name="failed_to_get_root_permission_check_out_whether_device_has_rooted_or_not">Failed to get root permission. Check out whether device has rooted or not.</string>
+    <string name="failed_to_copy_driver_files">Failed to copy driver files.</string>
+    <string name="retry">Retry</string>
+    <string name="driver_installation_complete">Driver installation complete.</string>
+    <string name="ime_name">Remoteroid IME</string>
+
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    
+    <string name="ime_mode_kor">Korean</string>
+    <string name="ime_mode_eng">English</string>
+    <string name="connection_cancelled">Connection cancelled.</string>
+    <string name="connected">Connected</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="proceed">Proceed</string>
+    <string name="get_notified">Get notified</string>
+    <string name="install_driver">Install Driver</string>
+    <string name="remoteroid_driver_description">Remoteroid driver description</string>
+   
+        <string name="enable_remotroid_service_to_check_notifications_on_your_pc">Enable Remotroid service to check notifications on your PC.</string>
+        <string name="connected_to_s">Connected to %s</string>
+        <string name="disconnected_from_server">Disconnected from server.</string>
+        <string name="connection_with_server_has_interrupted">Connection with server has interrupted.</string>
+        <string name="disconnecting">Disconnecting…</string>
+        <string name="back_finished">\'뒤로가기\'를 한번더 누르면 종료가 됩니다.</string>
+        <string name="incoming_call_from_s">Incoming call from %s</string>
+        <string name="dialog_sign_up_title">e-mail과 password를 입력해주세요.</string>
+        <string name="dialog_sign_up_input_email">input email</string>
+        <string name="dialog_sign_up_input_pwd">input Password</string>
+        <string name="dialog_category_title">Select the wanted category</string>
+        <string name="authentication_title">If your ID have existing, input your ID &amp; PASSWORD</string>
+        <string name="server_type">Server type</string>
+        <string-array name="server_type_name">
+            <item >for Windows</item>
+            <item >Universal</item>
+        </string-array>
+        <string-array name="server_type_value">
+            <item >windows</item>
+            <item >universal</item>
+        </string-array>
+            <string name="server_type_title">Server type</string>
+            <string name="server_type_summary">Select a server to communicate with.</string>
+            <string name="email">E-mail address</string>
+            <string name="login">Login</string>
+            <string name="register">Register</string>
+            <string name="have_no_account">Have no account?</string>
+            <string name="verify_password">Verify password</string>
+            <string name="user_e_mail_duplicates">User E-mail duplicates.</string>
+            <string name="error_occurred_please_try_again">Error occurred. Please try again.</string>
+            <string name="account_has_been_set">Account has been set.</string>
+            <string name="authentication_failed">Authentication failed.</string>
+            <string name="e_mail_is_not_valid">E-mail is not valid.</string>
+            <string name="account_info">Account info</string>
+            <string name="logout">Logout</string>
+            <string name="proceed_logout">Proceed logout?</string>
+            <string name="set_user_account">Manage account</string>
+            <string name="set_user_account_summary">Manage user\'s Remoteroid account and device.</string>
+            <string name="please_wait">Please wait…</string>
+            <string name="register_device">Register device</string>
+            <string name="registering_device">Registering device...</string>
+            <string name="device_registered">Device registered.</string>
+            <string name="cannot_register_device">Cannot register device.</string>
+</resources>

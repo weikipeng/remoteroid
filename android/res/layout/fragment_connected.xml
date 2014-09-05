@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/connected"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/fragment_connected_msg"/>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="4"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+        
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_authenticate" />
+
+        <ImageView
+            android:id="@+id/circuit_board"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_authenticate_blue" />
+
+        <ProgressBar
+            android:id="@+id/fragment_connected_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:visibility="gone"/>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_fragment_connected_disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:text="@string/disconnect" />
+
+</LinearLayout>

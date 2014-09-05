@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_grey_gradient"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/activity_account_info_user_account"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="android@android.com" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/activity_account_info_device_registration_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration status"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/activity_account_info_register_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register_device"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/activity_account_info_set_device_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Model"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/activity_account_info_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logout" />
+    </LinearLayout>
+
+</LinearLayout>

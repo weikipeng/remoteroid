@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_grey_gradient">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/enable_remotroid_service_to_check_notifications_on_your_pc" android:layout_below="@+id/configuration_checker_img" android:padding="10dp"/>
+
+     <Button android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enable"
+            android:id="@+id/btn_acc_service" android:layout_alignParentBottom="true" android:layout_margin="5dp"/>
+
+     <ImageView
+         android:id="@+id/configuration_checker_img"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:src="@drawable/img_notification_scrshot" android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
